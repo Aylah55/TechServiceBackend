@@ -37,6 +37,36 @@ class CategorySeeder extends Seeder
                 'description' => 'Casques, enceintes et équipements audio',
                 'is_active' => true,
             ],
+            [
+                'name' => 'Souris',
+                'slug' => 'souris',
+                'description' => 'Souris informatiques',
+                'is_active' => true,
+            ],
+            [
+                'name' => 'Clavier',
+                'slug' => 'clavier',
+                'description' => 'Claviers pour ordinateurs',
+                'is_active' => true,
+            ],
+            [
+                'name' => 'Écran',
+                'slug' => 'ecran',
+                'description' => 'Écrans et moniteurs',
+                'is_active' => true,
+            ],
+            [
+                'name' => 'Imprimante',
+                'slug' => 'imprimante',
+                'description' => 'Imprimantes et accessoires',
+                'is_active' => true,
+            ],
+            [
+                'name' => 'Accessoires',
+                'slug' => 'accessoires',
+                'description' => 'Accessoires informatiques',
+                'is_active' => true,
+            ],
         ];
 
         foreach ($categories as $category) {
